@@ -14,9 +14,9 @@ Aim
 The aim of this project is to identify high-risk areas in San Francisco by analyzing traffic crash data and discovering patterns in both location and time.
 
 This project answers:
-Where do traffic crashes cluster geographically in San Francisco?
-What are the top 5 most dangerous clusters to drive in?
-When do crashes most frequently occur in high-risk areas?
+-Where do traffic crashes cluster geographically in San Francisco?
+-What are the top 5 most dangerous clusters to drive in?
+-When do crashes most frequently occur in high-risk areas?
 
 This contributes to improving public safety awareness and can help guide safer navigation and planning decisions.
 
@@ -33,28 +33,28 @@ Traffic Crashes Dataset:
 Methodology
 
 1. Data Preprocessing
-Selected relevant columns: latitude, longitude, collision time
-Removed missing values
-Flipped one positive longitude to negative
-Converted collision time into hour of the day
+-Selected relevant columns: latitude, longitude, collision time
+-Removed missing values
+-Flipped one positive longitude to negative
+-Converted collision time into hour of the day
 
 2. Clustering (Data Mining Task)
-Applied K-Means clustering to group crash locations
-Used 30 clusters to identify detailed crash hotspots
-Identified the top 5 clusters with the highest crash counts
+-Applied K-Means clustering to group crash locations
+-Used 30 clusters to identify detailed crash hotspots
+-Identified the top 5 clusters with the highest crash counts
 
 3. Analysis
-Mapped cluster density to visualize high risk areas
-Extracted hourly crash patterns for each high risk cluster
-Generated visualizations for spatial and temporal analysis
+-Mapped cluster density to visualize high risk areas
+-Extracted hourly crash patterns for each high risk cluster
+-Generated visualizations for spatial and temporal analysis
 
 
 
 Tools & Libraries
-Python
-pandas
-matplotlib
-scikit-learn
+-Python
+-pandas
+-matplotlib
+-scikit-learn
 
 
 
